@@ -292,7 +292,7 @@ class tx_posts extends Widget_Base {
 				$thumb_image_url = aq_resize( $thumb_image_url[0], $width, $height, true, true, true );
 			}
 		
-			$return_string .= '<div class="tx-blog-item tx-post-col-'.$total_column.'"><div class="tx-border-box">';
+			$return_string .= '<div class="tx-blog-item tx-post-col-'.esc_attr($total_column).'"><div class="tx-border-box">';
 	
 			if ( has_post_thumbnail() ) {
 				
@@ -332,7 +332,7 @@ class tx_posts extends Widget_Base {
 			
 			$return_string .= '<div class="tx-meta">';
 			if ( $show_author == "yes" ) {
-				$return_string .= '<span class="tx-author"><a href="'.esc_url( get_author_posts_url( get_the_author_meta("ID") ) ).'">'.get_the_author().'</a></span>';
+				$return_string .= '<span class="tx-author"><a href="'.esc_url( get_author_posts_url( get_the_author_meta("ID") ) ).'">'.esc_html(get_the_author()).'</a></span>';
 			}
 			if ( $show_date == "yes" ) {
 				$return_string .= '<span class="tx-date"> | '.get_the_date('M j, Y').'</span>';

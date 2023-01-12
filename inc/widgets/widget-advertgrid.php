@@ -133,22 +133,22 @@
 			extract( $args );
 	
 			$title = apply_filters('widget_title', $instance['title'] );
-			$image_1 = $instance['image_1'];
-			$image_1_url = $instance['image_1_url'];
-			$image_2 = $instance['image_2'];
-			$image_2_url = $instance['image_2_url'];
-			$image_3 = $instance['image_3'];
-			$image_3_url = $instance['image_3_url'];
-			$image_4 = $instance['image_4'];
-			$image_4_url = $instance['image_4_url'];
-			$image_5 = $instance['image_5'];
-			$image_5_url = $instance['image_5_url'];
-			$image_6 = $instance['image_6'];
-			$image_6_url = $instance['image_6_url'];
-			$image_7 = $instance['image_7'];
-			$image_7_url = $instance['image_7_url'];
-			$image_8 = $instance['image_8'];
-			$image_8_url = $instance['image_8_url'];
+			$image_1 = esc_html($instance['image_1']);
+			$image_1_url = esc_url($instance['image_1_url']);
+			$image_2 = esc_html($instance['image_2']);
+			$image_2_url = esc_url($instance['image_2_url']);
+			$image_3 = esc_html($instance['image_3']);
+			$image_3_url = esc_url($instance['image_3_url']);
+			$image_4 = esc_html($instance['image_4']);
+			$image_4_url = esc_url($instance['image_4_url']);
+			$image_5 = esc_html($instance['image_5']);
+			$image_5_url = esc_url($instance['image_5_url']);
+			$image_6 = esc_html($instance['image_6']);
+			$image_6_url = esc_url($instance['image_6_url']);
+			$image_7 = esc_html($instance['image_7']);
+			$image_7_url = esc_url($instance['image_7_url']);
+			$image_8 = esc_html($instance['image_8']);
+			$image_8_url = esc_url($instance['image_8_url']);
 			
 			$output = '';
 			
