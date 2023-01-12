@@ -56,9 +56,9 @@
 			
 			extract( $args );
 	
-			$type = $instance['type'];
-			$items = $instance['items'];
-			$columns = $instance['columns'];
+			$type = esc_attr($instance['type']);
+			$items = esc_attr($instance['items']);
+			$columns = esc_attr($instance['columns']);
 			//$ids = $instance['ids'];
 	
 			$output = '';

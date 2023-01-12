@@ -94,10 +94,10 @@
 			
 			extract( $args );
 	
-			$divider_type = $instance['divider_type'];
-			$height = $instance['height'];
-			$bg_color_1 = $instance['bg_color_1'];
-			$bg_color_2 = $instance['bg_color_2'];
+			$divider_type = esc_html($instance['divider_type']);
+			$height = esc_attr($instance['height']);
+			$bg_color_1 = esc_attr($instance['bg_color_1']);
+			$bg_color_2 = esc_attr($instance['bg_color_2']);
 	
 			$output = '';
 			//nx_shapedivider divider_type="big-triangle-shadow" bg_color_1="#dd3333" bg_color_2="#dd3399" height="150"

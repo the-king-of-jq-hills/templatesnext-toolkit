@@ -74,7 +74,7 @@
 			
 			extract( $args );
 	
-			$spacer_size = $instance['spacer_size'];
+			$spacer_size = esc_attr($instance['spacer_size']);
 	
 			$output = '';
 			

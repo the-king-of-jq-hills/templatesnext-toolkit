@@ -59,7 +59,7 @@
 			
 			extract( $args );
 	
-			$testimonials_style = $instance['testimonials_style'];
+			$testimonials_style = esc_attr($instance['testimonials_style']);
 	
 			$output = '';
 			

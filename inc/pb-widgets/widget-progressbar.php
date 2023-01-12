@@ -121,7 +121,7 @@
 			$barcolor = esc_attr($instance['barcolor']);
 			$trackcolor = esc_attr($instance['trackcolor']);			
 			$barheight = esc_attr($instance['barheight']);
-			$candystrip = $instance['candystrip'];
+			$candystrip = esc_attr($instance['candystrip']);
 	
 			$output = '';
 			

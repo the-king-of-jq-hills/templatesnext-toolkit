@@ -90,10 +90,10 @@
 			
 			extract( $args );
 	
-			$style = $instance['style'];
-			$title = $instance['title'];
-			$icon = $instance['icon'];
-			$content = $instance['content'];
+			$style = esc_attr($instance['style']);
+			$title = esc_attr($instance['title']);
+			$icon = esc_attr($instance['icon']);
+			$content = esc_html($instance['content']);
 	
 			$output = '';
 			
