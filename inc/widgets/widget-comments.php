@@ -84,7 +84,7 @@
 											$comment_text = $comment_text .' ...';
 										}
 									?>
-									<a href="<?php echo get_comments_link($comment->comment_post_ID); ?>"><?php echo $comment_text; ?></a>
+									<a href="<?php echo esc_url(get_comments_link($comment->comment_post_ID)); ?>"><?php echo $comment_text; ?></a>
 								</div>
                                 
 							</div>

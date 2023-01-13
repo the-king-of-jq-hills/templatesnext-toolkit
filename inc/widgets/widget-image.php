@@ -75,11 +75,11 @@
 			if ($image_1 != "") {
 				$output .= '<li>';
 				if ($image_1_url != "") {
-					$output .= '<a href="'.$image_1_url.'" target="_blank">';
-					$output .= '<img src="'.$image_1.'" alt="advert" />';
+					$output .= '<a href="'.esc_url($image_1_url).'" target="_blank">';
+					$output .= '<img src="'.esc_url($image_1).'" alt="advert" />';
 					$output .= '</a>';
 				} else {
-					$output .= '<img src="'.$image_1.'" alt="advert" />';
+					$output .= '<img src="'.esc_url($image_1).'" alt="advert" />';
 				}
 				$output .= '</li>';
 			}

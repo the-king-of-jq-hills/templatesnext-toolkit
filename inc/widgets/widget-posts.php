@@ -67,12 +67,12 @@
 				<?php while( $recent_posts->have_posts()) : $recent_posts->the_post();
 				
 				$thumb_stat = "";
-				$post_title = get_the_title();
+				$post_title = esc_html(get_the_title());
 				$post_author = get_the_author_link();
-				$post_date = get_the_date('M j, Y');
+				$post_date = esc_html(get_the_date('M j, Y'));
 				$post_categories = get_the_category_list();
-				$post_comments = get_comments_number();
-				$post_permalink = get_permalink();
+				$post_comments = esc_html(get_comments_number());
+				$post_permalink = esc_url(get_permalink());
 
 				$thumb_image = get_post_thumbnail_id();
 				$thumb_img_url = wp_get_attachment_url( $thumb_image, 'small' );

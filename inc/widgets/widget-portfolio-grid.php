@@ -69,9 +69,9 @@
 				}
 				?>
 				<?php if ($image) { ?>
-				<li class="grid-item-<?php echo $count; ?>">
-					<a href="<?php echo $post_permalink; ?>" class="grid-image tooltip2" title="<?php echo $post_title; ?>">
-						<img src="<?php echo $image['0']; ?>" width="<?php echo $image[1]; ?>" alt="<?php echo $post_title; ?>" />
+				<li class="grid-item-<?php echo esc_attr($count); ?>">
+					<a href="<?php echo esc_url($post_permalink); ?>" class="grid-image tooltip2" title="<?php echo esc_html($post_title); ?>">
+						<img src="<?php echo esc_url($image['0']); ?>" width="<?php echo esc_attr($image[1]); ?>" alt="<?php echo esc_html($post_title); ?>" />
 					</a>
 				</li>
 				<?php } ?>

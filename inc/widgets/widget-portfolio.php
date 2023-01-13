@@ -62,13 +62,13 @@
 				$image = aq_resize( $thumb_img_url, 94, 75, true, false);
 				?>
 				<li>
-					<a href="<?php echo $post_permalink; ?>" class="recent-post-image">
+					<a href="<?php echo esc_url($post_permalink); ?>" class="recent-post-image">
 						<?php if ($image) { ?>
-						<img src="<?php echo $image['0']; ?>" width="<?php echo $image[1]; ?>" height="<?php echo $image[2]; ?>" alt=" " />
+						<img src="<?php echo esc_url($image['0']); ?>" width="<?php echo esc_attr($image[1]); ?>" height="<?php echo esc_attr($image[2]); ?>" alt=" " />
 						<?php } ?>
 					</a>
 					<div class="recent-post-details">
-						<a class="recent-post-title" href="<?php echo $post_permalink; ?>" title="<?php echo $post_title; ?>"><?php echo $post_title; ?></a>
+						<a class="recent-post-title" href="<?php echo esc_url($post_permalink); ?>" title="<?php echo esc_html($post_title); ?>"><?php echo esc_html($post_title); ?></a>
 					</div>
 				</li>
 				
