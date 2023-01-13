@@ -2,9 +2,9 @@
 Contributors: marsian
 Tags: shortcode, shortcodes, columns, column, section, sections, portfolio, testimonial, border, borders, button, buttons, masonry, posts, post_type, font awesome, icons, fontawesome
 Requires at least: 5.0
-Tested up to: 6.0
-Requires PHP: 7.0
-Stable tag: 3.2.7
+Tested up to: 6.1
+Requires PHP: 7.3
+Stable tag: 3.2.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,6 +42,9 @@ Install the plugin into the `/wp-content/plugins/` folder, and activate it.
 
 
 == Changelog ==
+= 3.2.8 =
+* Fixed: Security Update
+
 = 3.1.9 =
 * Fixed: Responsive style for elementor post grid
 * Fixed: Responsive style for elementor team member
