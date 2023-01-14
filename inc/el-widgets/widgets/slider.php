@@ -532,8 +532,8 @@ class tx_slider extends Widget_Base {
 			
 			
 		endwhile; else :
-			$return_string .= '<div class="tx-noposts"><p>Sorry, no slider matched your criteria. <br />';
-			$return_string .= 'Please add few slides via Dasboard menu "itrans slider" along with featured image.</p></div>';
+			$return_string .= '<div class="tx-noposts"><p>'. esc_html__('Sorry, no slider matched your criteria.', 'tx') .'<br />';
+			$return_string .= esc_html__('Please add few slides via Dasboard menu "itrans slider" along with featured image.', 'tx') .'</p></div>';
 		endif;
 	  
 		$return_string .= '</div>';

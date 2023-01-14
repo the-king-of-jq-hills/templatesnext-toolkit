@@ -33,15 +33,15 @@
 	?>
 	<div class="widget-content">		
 		<p>
-			<label><?php _e('Title', 'nx-admin');?>:</label>
+			<label><?php _e('Title', 'tx');?>:</label>
 			<input id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" value="<?php echo $instance['title']; ?>" class="widefat" type="text" />
 		</p>
 		<p>
-			<label><?php _e('Image 1 URL', 'nx-admin');?>:</label>
+			<label><?php _e('Image 1 URL', 'tx');?>:</label>
 			<input id="<?php echo $this->get_field_id( 'image_1' ); ?>" name="<?php echo $this->get_field_name( 'image_1' ); ?>" value="<?php echo $instance['image_1']; ?>" class="widefat" type="text"/>
 		</p>
 		<p>
-			<label><?php _e('Image 1 Link', 'nx-admin');?>:</label>
+			<label><?php _e('Image 1 Link', 'tx');?>:</label>
 			<input id="<?php echo $this->get_field_id( 'image_1_url' ); ?>" name="<?php echo $this->get_field_name( 'image_1_url' ); ?>" value="<?php echo $instance['image_1_url']; ?>" class="widefat" type="text"/>
 		</p>
 	</div>		

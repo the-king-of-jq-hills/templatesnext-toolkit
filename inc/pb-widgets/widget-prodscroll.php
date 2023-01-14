@@ -32,34 +32,34 @@
 	?>
 	<div class="nx-widget-content">		
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php _e('Portfolio Style', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php _e('Portfolio Style', 'tx');?>:</label>
 
             <select id="<?php echo $this->get_field_id( 'type' ); ?>" name="<?php echo $this->get_field_name( 'type' ); ?>" value="<?php echo $instance['type']; ?>" class="nx-widselect nx-pb-input">
             
-                <option value="recent_products"><?php _e('Recent Products', 'nx-admin');?></option>	
-                <option value="product_categories"><?php _e('Product Categories', 'nx-admin');?></option>					
-                <option value="featured_products"><?php _e('Featured Products', 'nx-admin');?></option>					
-                <option value="sale_products"><?php _e('Products On Sale', 'nx-admin');?></option>					
-                <option value="best_selling_products"><?php _e('Best Selling Products', 'nx-admin');?></option>					
-                <option value="top_rated_products"><?php _e('Top Rated Products', 'nx-admin');?></option>					
-                <option value="products"><?php _e('Products By Ids', 'nx-admin');?></option>
+                <option value="recent_products"><?php _e('Recent Products', 'tx');?></option>	
+                <option value="product_categories"><?php _e('Product Categories', 'tx');?></option>					
+                <option value="featured_products"><?php _e('Featured Products', 'tx');?></option>					
+                <option value="sale_products"><?php _e('Products On Sale', 'tx');?></option>					
+                <option value="best_selling_products"><?php _e('Best Selling Products', 'tx');?></option>					
+                <option value="top_rated_products"><?php _e('Top Rated Products', 'tx');?></option>					
+                <option value="products"><?php _e('Products By Ids', 'tx');?></option>
                   
             </select>            
 		</p>
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php _e('Number Of Items', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php _e('Number Of Items', 'tx');?>:</label>
             <input id="<?php echo $this->get_field_id( 'items' ); ?>" name="<?php echo $this->get_field_name( 'items' ); ?>" value="<?php echo $instance['items']; ?>" class="nx-pb-input tx-range-prev txPrevi" type="text" />
             <input type="range" min="1" max="16" step="1" value="8" class="txRange tx-range-slider">            
 		</p> 
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php _e('Number Of Columns', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php _e('Number Of Columns', 'tx');?>:</label>
             <input id="<?php echo $this->get_field_id( 'columns' ); ?>" name="<?php echo $this->get_field_name( 'columns' ); ?>" value="<?php echo $instance['columns']; ?>" class="nx-pb-input tx-range-prev txPrevi" type="text" />
             <input type="range" min="1" max="4" step="1" value="4" class="txRange tx-range-slider">              
 		</p>
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php _e('Category/Product Ids (optional)', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php _e('Category/Product Ids (optional)', 'tx');?>:</label>
             <input id="<?php echo $this->get_field_id( 'ids' ); ?>" name="<?php echo $this->get_field_name( 'ids' ); ?>" value="<?php echo $instance['ids']; ?>" class="nx-widselect nx-pb-input" type="text" />
-            <br /><span class="small"><?php _e('Comma separeted category or product ids (works with "Product Categories" and "Products By Ids")', 'nx-admin');?></span>
+            <br /><span class="small"><?php _e('Comma separeted category or product ids (works with "Product Categories" and "Products By Ids")', 'tx');?></span>
 		</p> 
 	</div>
 	<script>

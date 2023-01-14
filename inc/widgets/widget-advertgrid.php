@@ -33,71 +33,71 @@
 	?>
 	<div class="widget-content">		
 		<p>
-			<label><?php _e('Title', 'nx-admin');?>:</label>
+			<label><?php _e('Title', 'tx');?>:</label>
 			<input id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" value="<?php echo $instance['title']; ?>" class="widefat" type="text" />
 		</p>
 		<p>
-			<label><?php _e('Image 1 URL', 'nx-admin');?>:</label>
+			<label><?php _e('Image 1 URL', 'tx');?>:</label>
 			<input id="<?php echo $this->get_field_id( 'image_1' ); ?>" name="<?php echo $this->get_field_name( 'image_1' ); ?>" value="<?php echo $instance['image_1']; ?>" class="widefat" type="text"/>
 		</p>
 		<p>
-			<label><?php _e('Image 1 Link', 'nx-admin');?>:</label>
+			<label><?php _e('Image 1 Link', 'tx');?>:</label>
 			<input id="<?php echo $this->get_field_id( 'image_1_url' ); ?>" name="<?php echo $this->get_field_name( 'image_1_url' ); ?>" value="<?php echo $instance['image_1_url']; ?>" class="widefat" type="text"/>
 		</p>
 		<p>
-			<label><?php _e('Image 2 URL', 'nx-admin');?>:</label>
+			<label><?php _e('Image 2 URL', 'tx');?>:</label>
 			<input id="<?php echo $this->get_field_id( 'image_2' ); ?>" name="<?php echo $this->get_field_name( 'image_2' ); ?>" value="<?php echo $instance['image_2']; ?>" class="widefat" type="text"/>
 		</p>
 		<p>
-			<label><?php _e('Image 2 Link', 'nx-admin');?>:</label>
+			<label><?php _e('Image 2 Link', 'tx');?>:</label>
 			<input id="<?php echo $this->get_field_id( 'image_2_url' ); ?>" name="<?php echo $this->get_field_name( 'image_2_url' ); ?>" value="<?php echo $instance['image_2_url']; ?>" class="widefat" type="text"/>
 		</p>
 		<p>
-			<label><?php _e('Image 3 URL', 'nx-admin');?>:</label>
+			<label><?php _e('Image 3 URL', 'tx');?>:</label>
 			<input id="<?php echo $this->get_field_id( 'image_3' ); ?>" name="<?php echo $this->get_field_name( 'image_3' ); ?>" value="<?php echo $instance['image_3']; ?>" class="widefat" type="text"/>
 		</p>
 		<p>
-			<label><?php _e('Image 3 Link', 'nx-admin');?>:</label>
+			<label><?php _e('Image 3 Link', 'tx');?>:</label>
 			<input id="<?php echo $this->get_field_id( 'image_3_url' ); ?>" name="<?php echo $this->get_field_name( 'image_3_url' ); ?>" value="<?php echo $instance['image_3_url']; ?>" class="widefat" type="text"/>
 		</p>
 		<p>
-			<label><?php _e('Image 4 URL', 'nx-admin');?>:</label>
+			<label><?php _e('Image 4 URL', 'tx');?>:</label>
 			<input id="<?php echo $this->get_field_id( 'image_4' ); ?>" name="<?php echo $this->get_field_name( 'image_4' ); ?>" value="<?php echo $instance['image_4']; ?>" class="widefat" type="text"/>
 		</p>
 		<p>
-			<label><?php _e('Image 4 Link', 'nx-admin');?>:</label>
+			<label><?php _e('Image 4 Link', 'tx');?>:</label>
 			<input id="<?php echo $this->get_field_id( 'image_4_url' ); ?>" name="<?php echo $this->get_field_name( 'image_4_url' ); ?>" value="<?php echo $instance['image_4_url']; ?>" class="widefat" type="text"/>
 		</p>
 		<p>
-			<label><?php _e('Image 5 URL', 'nx-admin');?>:</label>
+			<label><?php _e('Image 5 URL', 'tx');?>:</label>
 			<input id="<?php echo $this->get_field_id( 'image_5' ); ?>" name="<?php echo $this->get_field_name( 'image_5' ); ?>" value="<?php echo $instance['image_5']; ?>" class="widefat" type="text"/>
 		</p>
 		<p>
-			<label><?php _e('Image 5 Link', 'nx-admin');?>:</label>
+			<label><?php _e('Image 5 Link', 'tx');?>:</label>
 			<input id="<?php echo $this->get_field_id( 'image_5_url' ); ?>" name="<?php echo $this->get_field_name( 'image_5_url' ); ?>" value="<?php echo $instance['image_5_url']; ?>" class="widefat" type="text"/>
 		</p>
 		<p>
-			<label><?php _e('Image 6 URL', 'nx-admin');?>:</label>
+			<label><?php _e('Image 6 URL', 'tx');?>:</label>
 			<input id="<?php echo $this->get_field_id( 'image_6' ); ?>" name="<?php echo $this->get_field_name( 'image_6' ); ?>" value="<?php echo $instance['image_6']; ?>" class="widefat" type="text"/>
 		</p>
 		<p>
-			<label><?php _e('Image 6 Link', 'nx-admin');?>:</label>
+			<label><?php _e('Image 6 Link', 'tx');?>:</label>
 			<input id="<?php echo $this->get_field_id( 'image_6_url' ); ?>" name="<?php echo $this->get_field_name( 'image_6_url' ); ?>" value="<?php echo $instance['image_6_url']; ?>" class="widefat" type="text"/>
 		</p>
 		<p>
-			<label><?php _e('Image 7 URL', 'nx-admin');?>:</label>
+			<label><?php _e('Image 7 URL', 'tx');?>:</label>
 			<input id="<?php echo $this->get_field_id( 'image_7' ); ?>" name="<?php echo $this->get_field_name( 'image_7' ); ?>" value="<?php echo $instance['image_7']; ?>" class="widefat" type="text"/>
 		</p>
 		<p>
-			<label><?php _e('Image 7 Link', 'nx-admin');?>:</label>
+			<label><?php _e('Image 7 Link', 'tx');?>:</label>
 			<input id="<?php echo $this->get_field_id( 'image_7_url' ); ?>" name="<?php echo $this->get_field_name( 'image_7_url' ); ?>" value="<?php echo $instance['image_7_url']; ?>" class="widefat" type="text"/>
 		</p>
 		<p>
-			<label><?php _e('Image 8 URL', 'nx-admin');?>:</label>
+			<label><?php _e('Image 8 URL', 'tx');?>:</label>
 			<input id="<?php echo $this->get_field_id( 'image_8' ); ?>" name="<?php echo $this->get_field_name( 'image_8' ); ?>" value="<?php echo $instance['image_8']; ?>" class="widefat" type="text"/>
 		</p>
 		<p>
-			<label><?php _e('Image 8 Link', 'nx-admin');?>:</label>
+			<label><?php _e('Image 8 Link', 'tx');?>:</label>
 			<input id="<?php echo $this->get_field_id( 'image_8_url' ); ?>" name="<?php echo $this->get_field_name( 'image_8_url' ); ?>" value="<?php echo $instance['image_8_url']; ?>" class="widefat" type="text"/>
 		</p>
 	</div>		

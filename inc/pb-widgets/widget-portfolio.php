@@ -34,53 +34,53 @@
 	?>
 	<div class="nx-widget-content">		
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php _e('Portfolio Style', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php _e('Portfolio Style', 'tx');?>:</label>
 
             <select id="<?php echo $this->get_field_id( 'style' ); ?>" name="<?php echo $this->get_field_name( 'style' ); ?>" value="<?php echo $instance['style']; ?>" class="nx-widselect nx-pb-input">
-              <option value="default"><?php _e('Default', 'nx-admin');?></option>
-              <option value="gallery"><?php _e('Gallery', 'nx-admin');?></option>
+              <option value="default"><?php _e('Default', 'tx');?></option>
+              <option value="gallery"><?php _e('Gallery', 'tx');?></option>
             </select>            
 		</p>
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php _e('Number Of Items', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php _e('Number Of Items', 'tx');?>:</label>
             <input id="<?php echo $this->get_field_id( 'items' ); ?>" name="<?php echo $this->get_field_name( 'items' ); ?>" value="<?php echo $instance['items']; ?>" class="nx-pb-input tx-range-prev txPrevi" type="text" />
             <input type="range" min="1" max="16" step="1" value="8" class="txRange tx-range-slider">            
 		</p> 
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php _e('Number Of Columns', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php _e('Number Of Columns', 'tx');?>:</label>
             <input id="<?php echo $this->get_field_id( 'columns' ); ?>" name="<?php echo $this->get_field_name( 'columns' ); ?>" value="<?php echo $instance['columns']; ?>" class="nx-pb-input tx-range-prev txPrevi" type="text" />
             <input type="range" min="1" max="4" step="1" value="4" class="txRange tx-range-slider">
 		</p>
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php _e('Hide Category', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php _e('Hide Category', 'tx');?>:</label>
 
             <select id="<?php echo $this->get_field_id( 'hide_cat' ); ?>" name="<?php echo $this->get_field_name( 'hide_cat' ); ?>" value="<?php echo $instance['hide_cat']; ?>" class="nx-widselect nx-pb-input">
-              <option value="no"><?php _e('No', 'nx-admin');?></option>
-              <option value="yes"><?php _e('Yes', 'nx-admin');?></option>
+              <option value="no"><?php _e('No', 'tx');?></option>
+              <option value="yes"><?php _e('Yes', 'tx');?></option>
             </select>            
 		</p> 
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php _e('Hide Excerpt', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php _e('Hide Excerpt', 'tx');?>:</label>
 
             <select id="<?php echo $this->get_field_id( 'hide_excerpt' ); ?>" name="<?php echo $this->get_field_name( 'hide_excerpt' ); ?>" value="<?php echo $instance['hide_excerpt']; ?>" class="nx-widselect nx-pb-input">
-              <option value="no"><?php _e('No', 'nx-admin');?></option>
-              <option value="yes"><?php _e('Yes', 'nx-admin');?></option>
+              <option value="no"><?php _e('No', 'tx');?></option>
+              <option value="yes"><?php _e('Yes', 'tx');?></option>
             </select>            
 		</p>
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php _e('Show Pagination', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php _e('Show Pagination', 'tx');?>:</label>
 
             <select id="<?php echo $this->get_field_id( 'show_pagination' ); ?>" name="<?php echo $this->get_field_name( 'show_pagination' ); ?>" value="<?php echo $instance['show_pagination']; ?>" class="nx-widselect nx-pb-input">
-              <option value="no"><?php _e('No', 'nx-admin');?></option>
-              <option value="yes"><?php _e('Yes', 'nx-admin');?></option>
+              <option value="no"><?php _e('No', 'tx');?></option>
+              <option value="yes"><?php _e('Yes', 'tx');?></option>
             </select>            
 		</p>
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php _e('Show As Carousel', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php _e('Show As Carousel', 'tx');?>:</label>
 
             <select id="<?php echo $this->get_field_id( 'carousel' ); ?>" name="<?php echo $this->get_field_name( 'carousel' ); ?>" value="<?php echo $instance['carousel']; ?>" class="nx-widselect nx-pb-input">
-              <option value="no"><?php _e('No', 'nx-admin');?></option>
-              <option value="yes"><?php _e('Yes', 'nx-admin');?></option>
+              <option value="no"><?php _e('No', 'tx');?></option>
+              <option value="yes"><?php _e('Yes', 'tx');?></option>
             </select>            
 		</p>                                               
 	</div>

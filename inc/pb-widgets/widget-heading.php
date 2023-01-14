@@ -33,45 +33,45 @@
 	?>
 	<div class="nx-widget-content">		
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php esc_html_e('Heading Style', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php esc_html_e('Heading Style', 'tx');?>:</label>
 
             <select id="<?php echo $this->get_field_id( 'style' ); ?>" name="<?php echo esc_attr($this->get_field_name( 'style' )); ?>" value="<?php echo esc_attr($instance['style']); ?>" class="nx-widselect nx-pb-input">
-              <option value="default"><?php esc_html_e('Default', 'nx-admin');?></option>
+              <option value="default"><?php esc_html_e('Default', 'tx');?></option>
             </select>            
 		</p>
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php esc_html_e('Heading Text', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php esc_html_e('Heading Text', 'tx');?>:</label>
             <input id="<?php echo esc_attr($this->get_field_id( 'heading_text' )); ?>" name="<?php echo esc_attr($this->get_field_name( 'heading_text' )); ?>" value="<?php echo esc_attr($instance['heading_text']); ?>" class="nx-widenumber nx-pb-input" type="text" />
 		</p> 
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php esc_html_e('Heading Tag', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php esc_html_e('Heading Tag', 'tx');?>:</label>
             <select id="<?php echo esc_attr($this->get_field_id( 'tag' )); ?>" name="<?php echo esc_attr($this->get_field_name( 'tag' )); ?>" value="<?php echo esc_attr($instance['tag']); ?>" class="nx-widselect nx-pb-input">
-              <option value="h2"><?php esc_html_e('H2', 'nx-admin');?></option>
-              <option value="h1"><?php esc_html_e('H1', 'nx-admin');?></option>
-              <option value="h3"><?php esc_html_e('H3', 'nx-admin');?></option>
-              <option value="h4"><?php esc_html_e('H4', 'nx-admin');?></option>
-              <option value="h5"><?php esc_html_e('H5', 'nx-admin');?></option>
-              <option value="h6"><?php esc_html_e('H6', 'nx-admin');?></option>
-              <option value="div"><?php esc_html_e('DIV', 'nx-admin');?></option>                                                                                    
+              <option value="h2"><?php esc_html_e('H2', 'tx');?></option>
+              <option value="h1"><?php esc_html_e('H1', 'tx');?></option>
+              <option value="h3"><?php esc_html_e('H3', 'tx');?></option>
+              <option value="h4"><?php esc_html_e('H4', 'tx');?></option>
+              <option value="h5"><?php esc_html_e('H5', 'tx');?></option>
+              <option value="h6"><?php esc_html_e('H6', 'tx');?></option>
+              <option value="div"><?php esc_html_e('DIV', 'tx');?></option>                                                                                    
             </select>              
 		</p>
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php esc_html_e('Heading Font Size (in px)', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php esc_html_e('Heading Font Size (in px)', 'tx');?>:</label>
 			<input id="<?php echo esc_attr($this->get_field_id( 'size' )); ?>" name="<?php echo esc_attr($this->get_field_name( 'size' )); ?>" value="<?php echo esc_attr($instance['size']); ?>" class="nx-pb-input tx-range-prev txPrevi" type="text" />
             <input type="range" min="12" max="120" step="1" value="24" class="txRange tx-range-slider">
 		</p> 
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php esc_html_e('Bottom Margin (in px)', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php esc_html_e('Bottom Margin (in px)', 'tx');?>:</label>
 			<input id="<?php echo esc_attr($this->get_field_id( 'margin' )); ?>" name="<?php echo esc_attr($this->get_field_name( 'margin' )); ?>" value="<?php echo esc_attr($instance['margin']); ?>" class="nx-pb-input tx-range-prev txPrevi" type="text" />
             <input type="range" min="0" max="120" step="1" value="16" class="txRange tx-range-slider">
            
 		</p>
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php esc_html_e('Heading Text Alignment', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php esc_html_e('Heading Text Alignment', 'tx');?>:</label>
 
             <select id="<?php echo esc_attr($this->get_field_id( 'align' )); ?>" name="<?php echo esc_attr($this->get_field_name( 'align' )); ?>" value="<?php echo esc_attr($instance['align']); ?>" class="nx-widselect nx-pb-input">
-              <option value="left"><?php esc_html_e('Left', 'nx-admin');?></option>
-              <option value="right"><?php esc_html_e('Right', 'nx-admin');?></option>
+              <option value="left"><?php esc_html_e('Left', 'tx');?></option>
+              <option value="right"><?php esc_html_e('Right', 'tx');?></option>
             </select>            
 		</p>
                                              

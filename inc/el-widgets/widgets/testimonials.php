@@ -266,8 +266,8 @@ class tx_testimonials extends Widget_Base {
 			
 			$return_string .= '</div>';
 		endwhile; else :
-			$return_string .= '<div class="tx-noposts"><p>Sorry, no testimonial matched your criteria. <br />';
-			$return_string .= 'Add few testimonials using Dashboard menu "Testimonials" &gt; "Add New"..</p></div>';			
+			$return_string .= '<div class="tx-noposts"><p>'. esc_html__('Sorry, no testimonial matched your criteria.', 'tx') .'<br />';
+			$return_string .= esc_html__('Add few testimonials using Dashboard menu "Testimonials" &gt; "Add New"..', 'tx') .'</p></div>';			
 		endif;
 	  
 		$return_string .= '</div>';

@@ -34,26 +34,26 @@
 
 	<div class="nx-widget-content">
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php _e('Service Style', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php _e('Service Style', 'tx');?>:</label>
 
             <select id="<?php echo $this->get_field_id( 'style' ); ?>" name="<?php echo $this->get_field_name( 'style' ); ?>" value="<?php echo $instance['style']; ?>" class="nx-widselect nx-pb-input">
-                <option value="default"><?php _e('Default (Circle)', 'nx-admin');?></option>					
-                <option value="curved"><?php _e('Curved Corner', 'nx-admin');?></option>					
-                <option value="square"><?php _e('Square', 'nx-admin');?></option>	
+                <option value="default"><?php _e('Default (Circle)', 'tx');?></option>					
+                <option value="curved"><?php _e('Curved Corner', 'tx');?></option>					
+                <option value="square"><?php _e('Square', 'tx');?></option>	
             </select>            
 		</p>    
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php _e('Service Title', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php _e('Service Title', 'tx');?>:</label>
             <input id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" value="<?php echo $instance['title']; ?>" class="nx-widenumber nx-pb-input" type="text" />
 		</p> 
 		<div class="nx-icon-para">
-			<label class="nx-pb-lebel"><?php _e('Service Icon', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php _e('Service Icon', 'tx');?>:</label>
             <div class="awedrop" id="awedrop_<?php echo $this->get_field_name( 'icon' ); ?>">
 			</div>            
             <input id="<?php echo $this->get_field_id( 'icon' ); ?>" name="<?php echo $this->get_field_name( 'icon' ); ?>" value="<?php echo $instance['icon']; ?>" class="nx-widerange nx-pb-input nx-service-icon" type="text" />
 		</div>
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php _e('Service Content', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php _e('Service Content', 'tx');?>:</label>
 
             <textarea id="<?php echo $this->get_field_id( 'content' ); ?>" name="<?php echo $this->get_field_name( 'content' ); ?>" value="<?php echo $instance['content']; ?>" class="nx-widselect nx-pb-input"><?php echo $instance['content']; ?></textarea>
 		</p> 

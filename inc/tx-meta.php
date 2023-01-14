@@ -54,20 +54,20 @@ function tx_register_meta_boxes( $meta_boxes )
 
 			// name
 			array(
-				'name'  => __( 'Slide Button Text', 'nx-admin' ),
+				'name'  => __( 'Slide Button Text', 'tx' ),
 				'id'    => "{$prefix}slide_link_text",
 				'type'  => 'text',
-				'std'   => __( '', 'nx-admin' ),
-				'desc' => __('Enter the slide link button text.', 'nx-admin'),
+				'std'   => __( '', 'tx' ),
+				'desc' => __('Enter the slide link button text.', 'tx'),
 			),
 
 			// designation
 			array(
-				'name'  => __( 'Slide Link URL', 'nx-admin' ),
+				'name'  => __( 'Slide Link URL', 'tx' ),
 				'id'    => "{$prefix}slide_link_url",
 				'type'  => 'text',
-				'std'   => __( '', 'nx-admin' ),
-				'desc' => __('Enter the slide link url', 'nx-admin'),
+				'std'   => __( '', 'tx' ),
+				'desc' => __('Enter the slide link url', 'tx'),
 			),
 					
 		)
@@ -97,69 +97,69 @@ function tx_register_meta_boxes( $meta_boxes )
 
 			// Designation
 			array(
-				'name'  => __( 'Position/Designation', 'nx-admin' ),
+				'name'  => __( 'Position/Designation', 'tx' ),
 				'id'    => "{$prefix}designation",
 				'type'  => 'text',
-				'std'   => __( '', 'nx-admin' ),
-				'desc' => __('Enter the team member\'s position within the team.', 'nx-admin'),
+				'std'   => __( '', 'tx' ),
+				'desc' => __('Enter the team member\'s position within the team.', 'tx'),
 			),
 
 			// Email
 			array(
-				'name'  => __( 'Email Address', 'nx-admin' ),
+				'name'  => __( 'Email Address', 'tx' ),
 				'id'    => "{$prefix}team_email",
 				'type'  => 'text',
-				'std'   => __( '', 'nx-admin' ),
-				'desc' => __('Enter the team member\'s Email Id.', 'nx-admin'),
+				'std'   => __( '', 'tx' ),
+				'desc' => __('Enter the team member\'s Email Id.', 'tx'),
 			),
 			// Phone
 			array(
-				'name'  => __( 'Phone Number', 'nx-admin' ),
+				'name'  => __( 'Phone Number', 'tx' ),
 				'id'    => "{$prefix}team_phone",
 				'type'  => 'text',
-				'std'   => __( '', 'nx-admin' ),
-				'desc' => __('Enter the team member\'s Phone Number.', 'nx-admin'),
+				'std'   => __( '', 'tx' ),
+				'desc' => __('Enter the team member\'s Phone Number.', 'tx'),
 			),
 			// Twitter
 			array(
-				'name'  => __( 'Twitter', 'nx-admin' ),
+				'name'  => __( 'Twitter', 'tx' ),
 				'id'    => "{$prefix}team_twitter",
 				'type'  => 'text',
-				'std'   => __( '', 'nx-admin' ),
-				'desc' => __('Enter the team member\'s Twitter URL.', 'nx-admin'),
+				'std'   => __( '', 'tx' ),
+				'desc' => __('Enter the team member\'s Twitter URL.', 'tx'),
 			),
 			
 			// Facebook
 			array(
-				'name'  => __( 'Facebook', 'nx-admin' ),
+				'name'  => __( 'Facebook', 'tx' ),
 				'id'    => "{$prefix}team_facebook",
 				'type'  => 'text',
-				'std'   => __( '', 'nx-admin' ),
-				'desc' => __('Enter the team member\'s Facebook URL.', 'nx-admin'),
+				'std'   => __( '', 'tx' ),
+				'desc' => __('Enter the team member\'s Facebook URL.', 'tx'),
 			),
 			// Google+
 			array(
-				'name'  => __( 'Google+', 'nx-admin' ),
+				'name'  => __( 'Google+', 'tx' ),
 				'id'    => "{$prefix}team_gplus",
 				'type'  => 'text',
-				'std'   => __( '', 'nx-admin' ),
-				'desc' => __('Enter the team member\'s Google+ URL.', 'nx-admin'),
+				'std'   => __( '', 'tx' ),
+				'desc' => __('Enter the team member\'s Google+ URL.', 'tx'),
 			),
 			// Skype
 			array(
-				'name'  => __( 'Skype', 'nx-admin' ),
+				'name'  => __( 'Skype', 'tx' ),
 				'id'    => "{$prefix}team_skype",
 				'type'  => 'text',
-				'std'   => __( '', 'nx-admin' ),
-				'desc' => __('Enter the team member\'s Skype user name.', 'nx-admin'),
+				'std'   => __( '', 'tx' ),
+				'desc' => __('Enter the team member\'s Skype user name.', 'tx'),
 			),
 			// Skype
 			array(
-				'name'  => __( 'Linkedin', 'nx-admin' ),
+				'name'  => __( 'Linkedin', 'tx' ),
 				'id'    => "{$prefix}team_linkedin",
 				'type'  => 'text',
-				'std'   => __( '', 'nx-admin' ),
-				'desc' => __('Enter the team member\'s Linkedin URL.', 'nx-admin'),
+				'std'   => __( '', 'tx' ),
+				'desc' => __('Enter the team member\'s Linkedin URL.', 'tx'),
 			),									
 						
 		)
@@ -190,28 +190,28 @@ function tx_register_meta_boxes( $meta_boxes )
 
 			// name
 			array(
-				'name'  => __( 'Testimonial Cite', 'nx-admin' ),
+				'name'  => __( 'Testimonial Cite', 'tx' ),
 				'id'    => "{$prefix}testi_name",
 				'type'  => 'text',
-				'std'   => __( '', 'nx-admin' ),
-				'desc' => __('Enter the testimonial cite name.', 'nx-admin'),
+				'std'   => __( '', 'tx' ),
+				'desc' => __('Enter the testimonial cite name.', 'tx'),
 			),
 
 			// designation
 			array(
-				'name'  => __( 'Testimonial Cite Designation/position', 'nx-admin' ),
+				'name'  => __( 'Testimonial Cite Designation/position', 'tx' ),
 				'id'    => "{$prefix}testi_desig",
 				'type'  => 'text',
-				'std'   => __( '', 'nx-admin' ),
-				'desc' => __('Enter the cite designation or position', 'nx-admin'),
+				'std'   => __( '', 'tx' ),
+				'desc' => __('Enter the cite designation or position', 'tx'),
 			),
 			// company name
 			array(
-				'name'  => __( 'Company name', 'nx-admin' ),
+				'name'  => __( 'Company name', 'tx' ),
 				'id'    => "{$prefix}testi_company",
 				'type'  => 'text',
-				'std'   => __( '', 'nx-admin' ),
-				'desc' => __('Enter the cite company name', 'nx-admin'),
+				'std'   => __( '', 'tx' ),
+				'desc' => __('Enter the cite company name', 'tx'),
 			),
 
 		

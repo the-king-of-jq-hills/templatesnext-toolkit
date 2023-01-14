@@ -346,7 +346,7 @@ class tx_posts extends Widget_Base {
 			
 			
 		endwhile; else :
-			$return_string .= '<div class="tx-noposts"><p>Sorry, no posts matched your criteria. Please add some posts with featured images.</p></div>';
+			$return_string .= '<div class="tx-noposts"><p>'. esc_html__('Sorry, no posts matched your criteria. Please add some posts with featured images.', 'tx') .'</p></div>';
 		endif;
 	  
 		$return_string .= '</div>';

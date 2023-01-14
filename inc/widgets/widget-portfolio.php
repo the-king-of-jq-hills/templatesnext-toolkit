@@ -108,11 +108,11 @@
 				?>
                 <div class="widget-content">
                     <p>
-                        <label for="<?php echo $this->get_field_id('title'); ?>"><?php echo __( 'Title:', 'nx-admin' ); ?></label>
+                        <label for="<?php echo $this->get_field_id('title'); ?>"><?php echo __( 'Title:', 'tx' ); ?></label>
                         <input id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $title; ?>" class="widefat" />
                     </p>
                     <p>
-                        <label for="<?php echo $this->get_field_id('number'); ?>"><?php echo __( 'Number of items to show:', 'nx-admin' ); ?></label>
+                        <label for="<?php echo $this->get_field_id('number'); ?>"><?php echo __( 'Number of items to show:', 'tx' ); ?></label>
                         <input id="<?php echo $this->get_field_id('number'); ?>" name="<?php echo $this->get_field_name('number'); ?>" type="text" value="<?php echo $number; ?>" size="3" />
                     </p>
                 </div>

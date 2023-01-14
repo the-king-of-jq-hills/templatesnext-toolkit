@@ -10,19 +10,19 @@
 	  
 	function tx_portfolio_register() {
 		
-		$portfolio_permalink = _x( 'portfolio', 'slug', 'nx-admin' );
+		$portfolio_permalink = _x( 'portfolio', 'slug', 'tx' );
 		
 	    $labels = array(
-	        'name' => _x('Portfolio', 'post type general name', "nx-admin"),
-	        'singular_name' => _x('Portfolio Item', 'post type singular name', "nx-admin"),
-	        'add_new' => _x('Add New', 'portfolio item', "nx-admin"),
-	        'add_new_item' => __('Add New Portfolio Item', "nx-admin"),
-	        'edit_item' => __('Edit Portfolio Item', "nx-admin"),
-	        'new_item' => __('New Portfolio Item', "nx-admin"),
-	        'view_item' => __('View Portfolio Item', "nx-admin"),
-	        'search_items' => __('Search Portfolio', "nx-admin"),
-	        'not_found' =>  __('No portfolio items have been added yet', "nx-admin"),
-	        'not_found_in_trash' => __('Nothing found in Trash', "nx-admin"),
+	        'name' => _x('Portfolio', 'post type general name', 'tx'),
+	        'singular_name' => _x('Portfolio Item', 'post type singular name', 'tx'),
+	        'add_new' => _x('Add New', 'portfolio item', 'tx'),
+	        'add_new_item' => __('Add New Portfolio Item', 'tx'),
+	        'edit_item' => __('Edit Portfolio Item', 'tx'),
+	        'new_item' => __('New Portfolio Item', 'tx'),
+	        'view_item' => __('View Portfolio Item', 'tx'),
+	        'search_items' => __('Search Portfolio', 'tx'),
+	        'not_found' =>  __('No portfolio items have been added yet', 'tx'),
+	        'not_found_in_trash' => __('Nothing found in Trash', 'tx'),
 	        'parent_item_colon' => ''
 	    );
 			
@@ -53,8 +53,8 @@
 	function tx_create_portfolio_taxonomy() {
 		
 		$atts = array(
-			"label" 						=> _x('Portfolio Categories', 'category label', "nx-admin"), 
-			"singular_label" 				=> _x('Portfolio Category', 'category singular label', "nx-admin"), 
+			"label" 						=> _x('Portfolio Categories', 'category label', 'tx'), 
+			"singular_label" 				=> _x('Portfolio Category', 'category singular label', 'tx'), 
 			'public'                        => true,
 			'hierarchical'                  => true,
 			'show_ui'                       => true,
@@ -62,7 +62,7 @@
 			'args'                          => array( 'orderby' => 'term_order' ),
 			'rewrite' 						=> array(
 												//'slug'         => empty( $portfolio_permalinks['category_base'] ) ? _x( 'portfolio-category', 'slug', 'nx-admin' ) : $portfolio_permalinks['category_base'],
-												'slug'         => _x( 'portfolio-category', 'slug', 'nx-admin' ),
+												'slug'         => _x( 'portfolio-category', 'slug', 'tx' ),
 												'with_front'   => false,
 												'hierarchical' => true,
 											),
@@ -82,9 +82,9 @@
 	        $columns = array(  
 	            "cb" => "<input type=\"checkbox\" />",  
 	            "thumbnail" => "",
-	            "title" => __("Portfolio Item", "nx-admin"),
-	            "description" => __("Description", "nx-admin"),
-	            "portfolio-category" => __("Categories", "nx-admin") 
+	            "title" => __("Portfolio Item", 'tx'),
+	            "description" => __("Description", 'tx'),
+	            "portfolio-category" => __("Categories", 'tx') 
 	        );  
 	  
 	        return $columns;  

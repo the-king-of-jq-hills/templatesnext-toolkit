@@ -31,11 +31,11 @@
 	?>
 	<div class="nx-widget-content">		
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php _e('Number Of Items', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php _e('Number Of Items', 'tx');?>:</label>
             <input id="<?php echo $this->get_field_id( 'items' ); ?>" name="<?php echo $this->get_field_name( 'items' ); ?>" value="<?php echo $instance['items']; ?>" class="nx-widenumber nx-pb-input" type="number" min="1" max="16" step="1" />
 		</p> 
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php _e('Number Of Columns', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php _e('Number Of Columns', 'tx');?>:</label>
             <input id="<?php echo $this->get_field_id( 'columns' ); ?>" name="<?php echo $this->get_field_name( 'columns' ); ?>" value="<?php echo $instance['columns']; ?>" class="nx-widerange nx-pb-input" type="number" min="1" max="4" step="1" />
 		</p>
 	</div>		

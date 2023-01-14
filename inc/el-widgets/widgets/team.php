@@ -218,8 +218,8 @@ class tx_team extends Widget_Base {
 			
 			
 		endwhile; else :
-			$return_string .= '<div class="tx-noposts"><p>Sorry, no team member matched your criteria. <br />';
-			$return_string .= 'Please add few team member along with featured image using Dashboard menu "Team" &gt; "Add New".</p></div>';
+			$return_string .= '<div class="tx-noposts"><p>'. esc_html__('Sorry, no team member matched your criteria.', 'tx') .'<br />';
+			$return_string .= esc_html__('Please add few team member along with featured image using Dashboard menu "Team" &gt; "Add New".', 'tx') .'</p></div>';
 		endif;
 		
 		$return_string .= '<div class="clear"></div>';	  

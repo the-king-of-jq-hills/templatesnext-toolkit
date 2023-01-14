@@ -39,10 +39,10 @@
 	?>
 	<div class="nx-widget-content">		
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php _e('Spacer Size', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php _e('Spacer Size', 'tx');?>:</label>
             <input id="<?php echo $this->get_field_id( 'spacer_size' ); ?>" name="<?php echo $this->get_field_name( 'spacer_size' ); ?>" value="<?php echo $instance['spacer_size']; ?>" class="nx-pb-input tx-range-prev txPrevi" type="text" />
             <input type="range" min="1" max="240" step="1" value="16" class="txRange tx-range-slider">
-            <small><?php _e('Vertical space between 2 elements in px', 'nx-admin');?></small>
+            <small><?php _e('Vertical space between 2 elements in px', 'tx');?></small>
 		</p>         
 	</div>
 		<script>

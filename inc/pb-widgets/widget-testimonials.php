@@ -39,10 +39,10 @@
 	?>
 	<div class="nx-widget-content">		
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php _e('Testimonials Style', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php _e('Testimonials Style', 'tx');?>:</label>
 
             <select id="<?php echo $this->get_field_id( 'testimonials_style' ); ?>" name="<?php echo $this->get_field_name( 'testimonials_style' ); ?>" value="<?php echo $instance['testimonials_style']; ?>" class="nx-widselect nx-pb-input">
-              <option value="default"><?php _e('Default', 'nx-admin');?></option>
+              <option value="default"><?php _e('Default', 'tx');?></option>
             </select>            
 		</p>
 	</div>		

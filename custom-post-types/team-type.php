@@ -10,16 +10,16 @@
 	function tx_team_register() {  
 	
 	    $labels = array(
-	        'name' => _x('Team', 'post type general name', "nx-admin"),
-	        'singular_name' => _x('Team Member', 'post type singular name', "nx-admin"),
-	        'add_new' => _x('Add New', 'team member', "nx-admin"),
-	        'add_new_item' => __('Add New Team Member', "nx-admin"),
-	        'edit_item' => __('Edit Team Member', "nx-admin"),
-	        'new_item' => __('New Team Member', "nx-admin"),
-	        'view_item' => __('View Team Member', "nx-admin"),
-	        'search_items' => __('Search Team Members', "nx-admin"),
-	        'not_found' =>  __('No team members have been added yet', "nx-admin"),
-	        'not_found_in_trash' => __('Nothing found in Trash', "nx-admin"),
+	        'name' => _x('Team', 'post type general name', 'tx'),
+	        'singular_name' => _x('Team Member', 'post type singular name', 'tx'),
+	        'add_new' => _x('Add New', 'team member', 'tx'),
+	        'add_new_item' => __('Add New Team Member', 'tx'),
+	        'edit_item' => __('Edit Team Member', 'tx'),
+	        'new_item' => __('New Team Member', 'tx'),
+	        'view_item' => __('View Team Member', 'tx'),
+	        'search_items' => __('Search Team Members', 'tx'),
+	        'not_found' =>  __('No team members have been added yet', 'tx'),
+	        'not_found_in_trash' => __('Nothing found in Trash', 'tx'),
 	        'parent_item_colon' => ''
 	    );
 	
@@ -43,8 +43,8 @@
 	function tx_create_team_taxonomy() {
 		
 		$atts = array(
-			"label" 						=> _x('Team Categories', 'category label', "nx-admin"), 
-			"singular_label" 				=> _x('Team Category', 'category singular label', "nx-admin"), 
+			"label" 						=> _x('Team Categories', 'category label', 'tx'), 
+			"singular_label" 				=> _x('Team Category', 'category singular label', 'tx'), 
 			'public'                        => true,
 			'hierarchical'                  => true,
 			'show_ui'                       => true,
@@ -66,9 +66,9 @@
 	        $columns = array(  
 	            "cb" => "<input type=\"checkbox\" />",  
 	            "thumbnail" => "",
-	            "title" => __("Team Member", "nx-admin"),
-	            "description" => __("Description", "nx-admin"),
-	            "team-category" => __("Categories", "nx-admin")
+	            "title" => __("Team Member", 'tx'),
+	            "description" => __("Description", 'tx'),
+	            "team-category" => __("Categories", 'tx')
 	        );  
 	  
 	        return $columns;  

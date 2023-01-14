@@ -31,33 +31,33 @@
 	?>
 	<div class="nx-widget-content">		
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php _e('Divider Type', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php _e('Divider Type', 'tx');?>:</label>
 
             <select id="<?php echo $this->get_field_id( 'divider_type' ); ?>" name="<?php echo $this->get_field_name( 'divider_type' ); ?>" value="<?php echo $instance['divider_type']; ?>" class="nx-widselect nx-pb-input">
             
-                <option value="triangle"><?php _e('Triangle', 'nx-admin');?></option>	
-                <option value="slanted"><?php _e('Slanted', 'nx-admin');?></option>					
-                <option value="big-triangle-up"><?php _e('Big Triangle Upward', 'nx-admin');?></option>					
-                <option value="big-triangle-dn"><?php _e('Big Triangle Downward', 'nx-admin');?></option>					
-                <option value="curve-up"><?php _e('Curve Up', 'nx-admin');?></option>					
-                <option value="curve-dn"><?php _e('Curve Down', 'nx-admin');?></option>					
-                <option value="big-triangle-shadow"><?php _e('Big Triangle With Shadow', 'nx-admin');?></option>
+                <option value="triangle"><?php _e('Triangle', 'tx');?></option>	
+                <option value="slanted"><?php _e('Slanted', 'tx');?></option>					
+                <option value="big-triangle-up"><?php _e('Big Triangle Upward', 'tx');?></option>					
+                <option value="big-triangle-dn"><?php _e('Big Triangle Downward', 'tx');?></option>					
+                <option value="curve-up"><?php _e('Curve Up', 'tx');?></option>					
+                <option value="curve-dn"><?php _e('Curve Down', 'tx');?></option>					
+                <option value="big-triangle-shadow"><?php _e('Big Triangle With Shadow', 'tx');?></option>
                   
             </select>            
 		</p>
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php _e('Color 1', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php _e('Color 1', 'tx');?>:</label>
             <input id="<?php echo $this->get_field_id( 'bg_color_1' ); ?>" name="<?php echo $this->get_field_name( 'bg_color_1' ); ?>" value="<?php echo $instance['bg_color_1']; ?>" class="nx-widenumber nx-pb-input tx-color" type="text" />
 		</p> 
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php _e('Color 2', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php _e('Color 2', 'tx');?>:</label>
             <input id="<?php echo $this->get_field_id( 'bg_color_2' ); ?>" name="<?php echo $this->get_field_name( 'bg_color_2' ); ?>" value="<?php echo $instance['bg_color_2']; ?>" class="nx-widenumber nx-pb-input tx-color" type="text" />
-            <br /><span class="small"><?php _e('2nd color only used with Slanted and Big Triangle with shadow.', 'nx-admin');?></span>            
+            <br /><span class="small"><?php _e('2nd color only used with Slanted and Big Triangle with shadow.', 'tx');?></span>            
 		</p>
 		<p class="nx-pb-para">
-			<label class="nx-pb-lebel"><?php _e('Height', 'nx-admin');?>:</label>
+			<label class="nx-pb-lebel"><?php _e('Height', 'tx');?>:</label>
             <input id="<?php echo $this->get_field_id( 'height' ); ?>" name="<?php echo $this->get_field_name( 'height' ); ?>" value="<?php echo $instance['height']; ?>" class="nx-widselect nx-pb-input" type="text" />
-            <br /><span class="small"><?php _e('Height of the shape divider in PX..', 'nx-admin');?></span>
+            <br /><span class="small"><?php _e('Height of the shape divider in PX..', 'tx');?></span>
 		</p> 
 	</div>
 	<script>

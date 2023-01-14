@@ -328,8 +328,8 @@ class tx_portfolio extends Widget_Base {
 				
 			$return_string .= '</div></div>';
 		endwhile; else :
-			$return_string .= '<div class="tx-noposts"><p>Sorry, no portfolio matched your criteria. <br />';
-			$return_string .= 'Please add few portfolio along with featured images using Dashboard menu "Portfolio" &gt; "Add New"..</p></div>';			
+			$return_string .= '<div class="tx-noposts"><p>'. esc_html__('Sorry, no portfolio matched your criteria', 'tx') .'<br />';
+			$return_string .= esc_html__('Please add few portfolio along with featured images using Dashboard menu "Portfolio" &gt; "Add New"..', 'tx') .'</p></div>';			
 		endif;
 	  
 		$return_string .= '</div>';
