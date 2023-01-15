@@ -335,7 +335,7 @@ class tx_posts extends Widget_Base {
 				$return_string .= '<span class="tx-author"><a href="'.esc_url( get_author_posts_url( get_the_author_meta("ID") ) ).'">'.esc_html(get_the_author()).'</a></span>';
 			}
 			if ( $show_date == "yes" ) {
-				$return_string .= '<span class="tx-date"> | '.get_the_date('M j, Y').'</span>';
+				$return_string .= '<span class="tx-date"> | '.esc_html(get_the_date('M j, Y')).'</span>';
 			}
 			if ( $show_comm == "yes" ) {
 				$return_string .= '<span class="tx-post-comm"><span>'.esc_html($post_comments).'</span></span>';

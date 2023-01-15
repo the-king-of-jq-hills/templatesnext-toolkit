@@ -125,7 +125,7 @@ function tx_blog_function($atts, $content = null) {
 
 		$return_string .= '<div class="tx-meta">';
 		$return_string .= '<span class="tx-author">By : <a href="'.esc_url( get_author_posts_url( get_the_author_meta("ID") ) ).'">'.esc_html(get_the_author()).'</a></span>';
-		$return_string .= '<span class="tx-date"> | '.get_the_date('M j, Y').'</span>';
+		$return_string .= '<span class="tx-date"> | '.esc_html(get_the_date('M j, Y')).'</span>';
 		$return_string .= '</div>';
 		
 		

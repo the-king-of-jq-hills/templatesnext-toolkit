@@ -317,7 +317,7 @@ class tx_portfolio extends Widget_Base {
 			$return_string .= '<span class="folio-head">';
 			$return_string .= '<h3 class="tx-folio-title"><a href="'.esc_url(get_permalink()).'">'.esc_html(get_the_title()).'</a></h3>';
 			if ( $hide_cat == 'no' ) { // check if the post has a Post Thumbnail assigned to it.
-				$return_string .= '<div class="tx-folio-category">'.tx_folio_term( 'portfolio-category' ).'</div>';
+				$return_string .= '<div class="tx-folio-category">'.esc_html(tx_folio_term( 'portfolio-category' )).'</div>';
 			} else {
 				$return_string .= '<div style="display: block; clear: both; height: 16px;"></div>';
 			}
