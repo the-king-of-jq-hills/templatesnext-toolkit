@@ -157,6 +157,8 @@ if ( !function_exists('tx_heading_function') ) :
 function tx_heading_function($atts, $content = null) {
 	
 	//[tx_heading style=”default” heading_text=”Heading Text” tag=”h1″ size=”24″ margin=”24″]
+	$allowed_tags = array("h1", "h2", "h3", "h4", "h5", "h6");
+	$heading_tag = "h2";
 	
    	$atts = shortcode_atts(array(
       	'style' => 'default',
@@ -167,11 +169,16 @@ function tx_heading_function($atts, $content = null) {
       	'align' => 'left',
       	'class' => '',
    	), $atts);
+
+	if( in_array( strtolower( $atts['tag'] ), $allowed_tags ) )
+	{
+		$heading_tag = strtolower( $atts['tag'] );
+	}
 	
 	$return_string ='';
 
    	$return_string .= '<div class="tx-heading" style="margin-bottom:'.esc_attr($atts['margin']).'px; text-align: '.esc_attr($atts['align']).';">';
-   	$return_string .= '<'.esc_attr($atts['tag']).' class="tx-heading-tag" style="font-size:'.esc_attr($atts['size']).'px;">';	
+   	$return_string .= '<'.esc_attr($heading_tag).' class="tx-heading-tag" style="font-size:'.esc_attr($atts['size']).'px;">';	
 	$return_string .= do_shortcode(esc_html($atts['heading_text']));
    	$return_string .= '</'.esc_attr($atts['tag']).'>';
    	$return_string .= '</div>';	
