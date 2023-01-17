@@ -180,7 +180,7 @@ function tx_heading_function($atts, $content = null) {
    	$return_string .= '<div class="tx-heading" style="margin-bottom:'.esc_attr($atts['margin']).'px; text-align: '.esc_attr($atts['align']).';">';
    	$return_string .= '<'.esc_attr($heading_tag).' class="tx-heading-tag" style="font-size:'.esc_attr($atts['size']).'px;">';	
 	$return_string .= do_shortcode(esc_html($atts['heading_text']));
-   	$return_string .= '</'.esc_attr($atts['tag']).'>';
+   	$return_string .= '</'.esc_attr($heading_tag).'>';
    	$return_string .= '</div>';	
 
    	return $return_string;
