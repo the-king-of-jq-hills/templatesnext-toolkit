@@ -4,7 +4,7 @@
 Plugin Name: TemplatesNext ToolKit
 Plugin URI: https://www.templatesnext.org/icreate/templatesnext-toolkit/
 Description: Custom Portfolio and Shortcode functionality for TemplatesNext Wordpress Themes
-Version: 3.2.8
+Version: 3.2.9
 Author: TemplatesNext
 Text Domain: tx
 Author URI: http://templatesnext.org/
